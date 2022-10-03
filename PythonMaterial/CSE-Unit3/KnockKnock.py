@@ -1,0 +1,5 @@
+print("knock knock")
+input("-> ")
+print("You")
+input("-> ")
+print("Siri: Searching the web for yahoo.com...")

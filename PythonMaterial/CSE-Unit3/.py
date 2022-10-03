@@ -37,6 +37,7 @@ elif fry == "large":
             total+=2.00
             fry="l"
 orderInformation+=f"fry:\t{fry}\n"
+if sandwich!="n" and drink!="n" and fry!="n"
 
 
 
