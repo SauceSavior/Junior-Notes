@@ -34,6 +34,8 @@ class song:
     
     def setName(self,newTitle):
         self.title=newTitle 
+        
+  
     
     
     

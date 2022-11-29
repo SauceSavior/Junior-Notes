@@ -35,6 +35,10 @@ while ui!="n":
 for sont in library:
     print(song)
     
+    songToFind=input("Which media?)")
+    for song in library:
+        if song.getName()==songToFind:
+            print(song.getDuration())
     
 '''
 while ui!="n":
