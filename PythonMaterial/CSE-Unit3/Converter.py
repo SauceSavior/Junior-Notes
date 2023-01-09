@@ -1,0 +1,5 @@
+r=int(input("red int: "))
+g=int(input("green int: "))
+b=int(input("blue int: "))
+r,g,b=round(r/255,4),round(g/255,4),round(b/255,4)
+print(f'Red,Green,Blue: {r},{g},{b}')
