@@ -3,32 +3,26 @@ import turtle as t
 wn=t.Screen()
 courtHeight=600
 courtWidth=1000
+wn.screensize(courtHeight+50,courtWidth+50)
+
 
 man=t.Turtle()
 man.speed(0)
 man.pensize(3)
-
-def courtt():
+def area():
     man.penup()
-    man.goto(-courtWidth/2,courtHeight/2)
+    man.goto(-courtHeight,courtWidth)
     man.pendown()
-    man.forward(courtWidth)
-    man.right(90)
+    man.degrees(90)
     man.forward(courtHeight)
     man.right(90)
     man.forward(courtWidth)
     man.right(90)
     man.forward(courtHeight)
     man.right(90)
-    man.forward(courtWidth/2)
-    man.right(90)
-    for i in range(15):
-        man.forward(26)
-        man.penup()
-        man.forward(15)
-        man.pendown()    
+    man.forward(courtWidth)
     
     
     
-courtt()
+area() 
 wn.mainloop()
